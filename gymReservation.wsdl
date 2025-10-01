@@ -89,8 +89,9 @@
 	</wsdl:binding>
 	<wsdl:service name="GymReservationService">
 		<wsdl:port name="ReservationPort" binding="tns:ReservationBinding">
-			<soap:address location="http://localhost:8080/ws/gym-reservation"/>
+			<soap:address location="http://localhost:8082/ws/gym-reservation"/>
 		</wsdl:port>
 	</wsdl:service>
 </wsdl:definitions>
+
 
